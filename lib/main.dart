@@ -63,7 +63,7 @@ class _HomeState extends State<Home> {
               child: Row(
                 children: <Widget>[
                   FloatingActionButton(
-                    elevation: 100,
+                    elevation: 20,
                     splashColor: Colors.red,
                     onPressed: () {
                       setState(
@@ -75,7 +75,7 @@ class _HomeState extends State<Home> {
                     child: const Icon(Icons.plus_one),
                   ),
                   FloatingActionButton(
-                    elevation: 100,
+                    elevation: 20,
                     splashColor: Colors.red,
                     onPressed: () {
                       setState(
