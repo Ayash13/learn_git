@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                         },
                       );
                     },
-                    child: const Icon(Icons.add),
+                    child: const Icon(Icons.plus_one),
                   ),
                   FloatingActionButton(
                     elevation: 100,
@@ -91,7 +91,7 @@ class _HomeState extends State<Home> {
                       );
                     },
                     child: const Icon(
-                      Icons.delete_forever_outlined,
+                      Icons.exposure_minus_1,
                       size: 25,
                     ),
                   ),
